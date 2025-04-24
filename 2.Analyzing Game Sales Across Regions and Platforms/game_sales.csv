@@ -1,0 +1,151 @@
+GameID,Platform,SalesRegion,UnitsSold,Price
+1,Xbox,North America,861216,45.39
+2,PlayStation,North America,444626,53.55
+3,PlayStation,North America,569637,34.2
+4,PlayStation,South America,977779,43.9
+5,PC,South America,473349,21.61
+6,PC,Europe,214870,37.55
+7,PC,Europe,644295,33.37
+8,PlayStation,Asia,105599,48.93
+9,Nintendo Switch,Europe,472076,46.39
+10,Nintendo Switch,Asia,141743,25.93
+11,PlayStation,Asia,955170,47.1
+12,Nintendo Switch,South America,661413,20.52
+13,PC,Asia,285019,53.8
+14,PC,Europe,785993,23.56
+15,PlayStation,North America,247058,48.15
+16,Xbox,North America,456669,23.15
+17,PC,Europe,779435,40.03
+18,Nintendo Switch,Europe,814771,36.18
+19,Xbox,North America,221365,42.04
+20,Xbox,South America,811837,44.35
+21,PC,North America,936854,26.88
+22,Nintendo Switch,Asia,226689,59.58
+23,Xbox,Europe,786319,29.99
+24,PC,North America,160064,41.45
+25,PC,South America,840322,33.23
+26,Xbox,South America,933302,34.99
+27,Xbox,Asia,653355,30.22
+28,Xbox,Asia,453641,44.63
+29,Nintendo Switch,North America,498706,56.89
+30,Xbox,Europe,486438,50.88
+31,PC,Europe,690062,21.95
+32,Xbox,North America,689788,36.97
+33,Nintendo Switch,Asia,295095,38.27
+34,PlayStation,South America,567672,59.15
+35,PlayStation,North America,726520,48.21
+36,Xbox,Asia,536916,23.98
+37,Xbox,North America,850188,51.2
+38,Nintendo Switch,North America,135262,27.09
+39,Xbox,South America,577850,26
+40,Nintendo Switch,South America,913018,21.42
+41,Xbox,North America,238899,50.82
+42,PC,South America,574003,24.86
+43,Nintendo Switch,North America,512123,23.68
+44,Nintendo Switch,North America,432201,35.8
+45,Xbox,Asia,387305,42.17
+46,Xbox,Asia,635036,55.55
+47,Nintendo Switch,Asia,626078,32.17
+48,PlayStation,North America,418056,23.65
+49,PC,Europe,882777,31.7
+50,PlayStation,Asia,104477,29.27
+51,PlayStation,Europe,348139,56.79
+52,Nintendo Switch,North America,919762,23.64
+53,PlayStation,Asia,304376,32.72
+54,Nintendo Switch,Asia,759228,46.09
+55,PlayStation,South America,730488,47.61
+56,PlayStation,North America,335875,37.15
+57,Nintendo Switch,South America,308084,28.11
+58,PC,Europe,669964,50.39
+59,Xbox,Europe,457305,23.62
+60,PC,North America,611733,41.36
+61,Xbox,Europe,780827,37.08
+62,Nintendo Switch,North America,321848,32.49
+63,PC,North America,217407,22.79
+64,Xbox,Asia,465215,25.04
+65,PC,North America,863940,43.92
+66,PC,Asia,248746,34.12
+67,Xbox,Asia,716135,40.02
+68,PC,North America,547697,36.4
+69,PC,Europe,142251,49.53
+70,Nintendo Switch,Asia,622343,21.31
+71,PC,Europe,214560,42.81
+72,PlayStation,South America,857726,20.41
+73,Nintendo Switch,South America,272209,25.72
+74,PC,South America,296796,51.76
+75,PlayStation,North America,220208,42.82
+76,PlayStation,South America,417112,26.35
+77,Xbox,Asia,939006,38.41
+78,Nintendo Switch,Asia,596775,57.01
+79,PlayStation,Asia,684777,27.33
+80,Nintendo Switch,North America,523980,38.41
+81,PlayStation,Europe,138645,28.97
+82,Xbox,Europe,106053,26.74
+83,PlayStation,Asia,542347,55.32
+84,Nintendo Switch,South America,453681,34.39
+85,PlayStation,Europe,399697,42.26
+86,PlayStation,South America,843983,49.54
+87,Xbox,Asia,290753,27.35
+88,PlayStation,Asia,938882,46
+89,PC,North America,232947,51.05
+90,PC,Europe,133362,21.42
+91,PC,Asia,918957,30.41
+92,PC,Asia,736792,35.41
+93,PC,Europe,923749,34.79
+94,Xbox,South America,902871,31.22
+95,Nintendo Switch,South America,845314,24.45
+96,Nintendo Switch,Asia,548460,38.35
+97,PC,Europe,677514,23.27
+98,Nintendo Switch,Europe,207163,46.27
+99,PC,North America,983132,36.37
+100,PlayStation,Europe,467310,21.27
+101,Nintendo Switch,South America,136933,50.04
+102,PC,South America,544780,43.14
+103,Xbox,North America,595217,45.81
+104,Nintendo Switch,Europe,183145,43.3
+105,Nintendo Switch,North America,383716,27.78
+106,Nintendo Switch,Asia,892189,25.88
+107,PlayStation,Europe,551497,33
+108,PC,North America,562480,57.7
+109,PlayStation,South America,948227,22.65
+110,PC,Asia,306939,21.3
+111,PC,Asia,293592,53.97
+112,PC,Europe,531041,27.4
+113,PC,South America,387899,41.4
+114,Nintendo Switch,South America,441282,35.2
+115,PC,North America,623161,44.38
+116,PC,South America,274239,47.39
+117,Nintendo Switch,South America,532480,44.64
+118,PC,Asia,515592,51.06
+119,Xbox,Europe,221239,45.55
+120,PC,South America,835850,48.96
+121,PlayStation,Europe,140629,40.93
+122,Xbox,North America,439508,52.08
+123,PlayStation,Asia,850831,30.42
+124,PlayStation,South America,114491,33.98
+125,PC,North America,577291,20.85
+126,PC,North America,730721,48.13
+127,Xbox,Asia,516789,44.85
+128,PlayStation,Asia,831485,51.46
+129,PlayStation,Asia,540323,46.09
+130,PlayStation,Asia,154425,54.76
+131,Xbox,South America,894813,36.87
+132,Xbox,North America,384250,46.12
+133,PlayStation,South America,410852,55.39
+134,PlayStation,Asia,524830,33.68
+135,Nintendo Switch,Europe,883024,57.26
+136,PC,North America,311370,24.87
+137,PlayStation,North America,835070,52.8
+138,PC,North America,865487,52.43
+139,Xbox,South America,464857,53.49
+140,Nintendo Switch,South America,738459,36.97
+141,Xbox,Asia,275435,53.56
+142,PC,Asia,211945,40.36
+143,PC,Asia,888999,21.58
+144,PlayStation,South America,736006,45.75
+145,Nintendo Switch,Europe,614085,59.6
+146,Xbox,South America,795629,24.76
+147,PC,North America,548237,40.1
+148,PlayStation,Asia,120934,55.72
+149,Xbox,Asia,161486,52.82
+150,Nintendo Switch,North America,806262,28.67
