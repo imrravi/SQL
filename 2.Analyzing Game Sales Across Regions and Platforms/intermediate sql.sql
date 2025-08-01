@@ -45,9 +45,9 @@ game.*/
 SELECT 
     g.GameTitle, gs.Platform, gs.SalesRegion, gs.UnitsSold
 FROM
-    game_sales gs
-        LEFT JOIN
-    games g ON gs.GameID = g.GameID;
+    games g
+        JOIN
+    game_sales gs ON g.GameID = gs.GameID;
 
 /* 7. Find all games, including those that have no sales data in the Game Sales table.*/
 
