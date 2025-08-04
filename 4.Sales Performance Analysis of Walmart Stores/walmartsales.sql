@@ -59,8 +59,8 @@ Walmart wants to segment customers based on their average spending behavior.
 Classify customers into three tiers: High, Medium, and Low spenders based on 
 their total purchase amounts.*/
 
-WITH customer_average_spending AS(
-SELECT
+WITH customer_average_spending AS (
+SELECT 
 `Customer ID` AS customer_id,
 ROUND(AVG(Total)) AS average_amount
 FROM walmartsales
@@ -68,18 +68,14 @@ GROUP BY customer_id
 ),
 tier_customer AS(
 SELECT *,
-NTILE(3) OVER(ORDER BY average_amount) AS tier
-FROM customer_average_spending
-)
-SELECT 
-customer_id,
-average_amount,
-CASE tier
+CASE NTILE(3) OVER(ORDER BY average_amount)
 WHEN 1 THEN 'Low Spendors'
 WHEN 2 THEN 'Medium Spendors'
 ELSE 'High Spendors'
-END AS spending_category
-FROM tier_customer;
+END AS  spending_category
+FROM customer_average_spending
+)
+SELECT * FROM  tier_customer;
 
 /* Task 4: Detecting Anomalies in Sales Transactions.
 Walmart suspects that some transactions have unusually high or low sales 
