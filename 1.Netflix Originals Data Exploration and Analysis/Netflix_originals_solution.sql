@@ -13,17 +13,16 @@ WHERE
 those languages that have more than 5 titles.*/
 
 SELECT 
-    Language, COUNT(*) AS total_titles
+    Language
 FROM
     netflix_originals
 GROUP BY Language
-HAVING total_titles > 5
-ORDER BY total_titles DESC;
+HAVING COUNT(*) > 5;
 
 /* 3. Get the top 3 longest-running movies in Hindi language sorted by IMDb score in descending order.*/
 
 SELECT 
-    *
+    Title
 FROM
     netflix_originals
 WHERE
@@ -35,7 +34,7 @@ LIMIT 3;
 and have an IMDb score greater than 6.*/
 
 SELECT 
-    *
+    Title, IMDBScore
 FROM
     netflix_originals
 WHERE
@@ -56,33 +55,30 @@ WHERE
 IMDb score less than 5, sorted by Premiere Date.*/
 
 SELECT 
-    *
+    Title, Runtime, IMDBScore, Premiere_Date
 FROM
     netflix_originals
 WHERE
-    Runtime <= 60 AND IMDBScore <= 5
+    Runtime < 60 OR IMDBScore < 5
 ORDER BY Premiere_Date;
 
 /* 7. Get the average IMDb score for each genre where the genre has at least 10 movies.*/
 
 SELECT 
-    GenreID,
-    ROUND(AVG(IMDBScore),2) AS avg_imdb,
-    COUNT(*) AS total_genere_id
+    GenreID, ROUND(AVG(IMDBScore), 2) AS avg_imdb
 FROM
     netflix_originals
 GROUP BY GenreID
-HAVING total_genere_id >= 10
-ORDER BY total_genere_id DESC;
+HAVING COUNT(*) >= 10;
 
 /* 8. Retrieve the top 5 most common runtimes for Netflix Originals.*/
 
 SELECT 
-    Runtime, COUNT(*) AS total_runtime
+    Runtime, COUNT(*) AS runtime_count
 FROM
     netflix_originals
 GROUP BY Runtime
-ORDER BY total_runtime DESC
+ORDER BY runtime_count DESC
 LIMIT 5;
 
 /* 9. List all Netflix Originals that were released in 2020, grouped by language, 
@@ -100,7 +96,7 @@ ORDER BY total_titles DESC;
 /* 10. Create a new table that enforces a constraint on the IMDb score to be between 0 and 10
  and the runtime to be greater than 30 minutes.*/
  
- CREATE TABLE netflix_movie (
+CREATE TABLE netflix_movie (
     title VARCHAR(255) NOT NULL,
     genere_id VARCHAR(255) NOT NULL,
     Runtime INT CHECK (Runtime > 30),
@@ -108,8 +104,3 @@ ORDER BY total_titles DESC;
     Language VARCHAR(100),
     Premiere_Date DATE
 );
-
-
-
-
-
